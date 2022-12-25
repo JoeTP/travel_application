@@ -176,6 +176,7 @@ class _DetailPageState extends State<DetailPage> {
                                 ),
                               );
                             },
+                            
                             separatorBuilder: (context, index) {
                               return SizedBox(
                                 width: Dimensions.width10,

@@ -5,6 +5,7 @@ import 'package:travel_app/reusable/dimensions.dart';
 import 'package:travel_app/reusable/responsive_button.dart';
 import 'package:travel_app/reusable/text_style.dart';
 
+import '../constant/const.dart';
 import '../reusable/colors.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -62,7 +63,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     ),
                     Container(
                       width: Dimensions.width120*2.3,
-                      child: SmallText(size:14,text: 'ssssssssssssssss sssssssssss aasdasd asfa sdfaefgqefgasf asf asgseg g dasfasdasdaeg  asfadgasdgafw',),
+                      child: SmallText(size:14,text: LOREM,),
                     ),
                     SizedBox(
                       height: Dimensions.height20*2,
